@@ -1,0 +1,253 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto',sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: #E3F2FD;
+  color: #000;
+
+}
+
+/*(--!index.html--)*/
+
+header {
+  width: 100%;
+  height: 100px;
+  margin: auto;
+  padding-top: 20px;
+  background-color:#009688;
+  color: #fff;
+  box-shadow: 0 10px 10px -5px rgba(225 225 225 0.3);
+
+}
+
+ header .banner {
+font-size: 30px;
+padding: 0 30px;
+margin: 0;
+font-weight: bold;
+float: left;
+text-transform: uppercase;
+word-spacing: 5px;
+/*text-align: center;*/
+
+
+
+}
+
+.name {
+  color:#F50057;
+  font-style: italic;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+header nav ul{
+  margin: 0;
+  padding:10px 0;
+  float: right;
+ /*text-align: center;*/
+}
+
+header nav ul li {
+display: inline;
+float: left;
+padding: 0 16px;
+list-style: none;
+}
+
+header nav ul li a {
+color: #f6f6f6;
+text-decoration: none;
+font-size: 20px;
+text-transform: capitalize;
+
+}
+
+header ul li a:hover {
+  background-color: #9E9E9E;
+  color: #D50000;
+  padding: 16px;
+}
+
+.banner-img {
+  width: 100%;
+  height: 80vh;
+  background-image: url('../image/img1.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.banner-img h2 {
+  font-size: 50px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 100px 20px 0px;
+  color: #FF5722;
+}
+
+.banner-img p {
+  font-size: 25px;
+  color: #FF7043;
+  padding: 30px;
+}
+
+.banner-img .source {
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 10px;
+  border: 2px solid #FF5722;
+  background-color: #35424a;
+  color: #fff;
+}
+
+.banner-img .source:hover {
+  background-color: #F50057;
+  color: #fff;
+  border: 2px solid #333;
+}
+
+.boxes {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 20px 0;
+  color: #000;
+}
+
+.boxe {
+  line-height: 2.5rem;
+  background: #CFD8DC;
+  text-align: center;
+  padding: 20px 30px;
+  box-shadow: 0 10px 10px -5px ragb(0, 0, 0, 0.3)
+}
+
+.box-p {
+  line-height: 1.4rem;
+}
+
+.boxes .boxe h3{
+  text-transform: uppercase;
+}
+
+.info {
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: #CFD8DC;
+  color: #333;
+}
+
+.info-div {
+  padding: 100px 20px;
+  float: left;
+}
+
+.info-div p {
+  font-size: 18px;
+  padding: 20px 0;
+}
+
+.info-div a {
+  font-size: 20px;
+  padding: 10px;
+  text-decoration: none;
+  border: 1px solid #FF5722;
+  background-color: #35424a;
+  color: #fff;
+}
+
+.info-div h2 {
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.info .info-img {
+  width: 100%;
+  height: 350px;
+  background-position: center;
+  background-size: cover;
+}
+
+.contants{
+  text-align: center;
+  padding-top: 30px;
+  background-color: #B0BEC5;
+  color: #333;
+
+}
+.contants h2{
+  font-size: 30px;
+  text-transform: uppercase;
+  padding: 10px;
+  font-weight:900; 
+}
+
+.contants p{
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+
+.contant-grid{
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 30px 20px;
+}
+
+.box-img1{
+  background-image: url('../image/img2.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  width: 100%;
+  height: 300px;
+
+}
+.box-img2{
+  background-image: url('../image/img3.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  width: 100%;
+  height: 300px;
+
+}
+.box-img3{
+  background-image: url('../image/img5.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  width: 100%;
+  height: 300px;
+
+}
+
+.contant-p {
+  margin-top: 100px;
+  padding: 40px 20px;
+  font-weight: 900;
+  color: #000;
+}
+
+
+footer p{
+  background-color: #009688;
+  color: #fff;
+  padding: 15px;
+  text-align: center;
+}
+
+
+/*(--!about us--)*/
